@@ -14,13 +14,18 @@ const socialLinks = [
   },
   {
     label: "LinkedIn",
-    handle: "@vats_",
+    handle: "@vats_linkedin",
     href: "https://linkedin.com/in/vats-mishra",
   },
   {
     label: "Email",
     handle: "@vats_gmail",
     href: "mailto:vats24dev@gmail.com",
+  },
+  {
+    label: "Medium",
+    handle: "@vats_medium",
+    href: "https://medium.com/@vats24dev",
   },
   // { label: "Discord", handle: "@asheeshh", href: "#" },
   // { label: "CV", handle: "read.cv/asrvd", href: "https://read.cv/asrvd" },
@@ -139,7 +144,11 @@ export default function Portfolio() {
         {/* Header */}
         <header className="flex items-center gap-4 mb-6">
           <div className="w-12 h-12 rounded-full overflow-hidden bg-gradient-to-br from-gray-400 to-gray-600 flex-shrink-0">
-            <div className="w-full h-full bg-gradient-to-br from-gray-300 via-gray-400 to-gray-500 rounded-full" />
+            <img
+              src="/hero.png"
+              alt="Vats"
+              className="w-full h-full object-cover rounded-full"
+            />
           </div>
           <div>
             <h1 className="text-white font-medium text-lg">Vats</h1>
@@ -236,13 +245,13 @@ function HomeContent() {
           <span className="text-amber-600 hover:text-amber-500 text-sm underline-offset-2">
             simplicity
           </span>{" "}
-          simplicity and I try to reflect that in my works as well. I often jam
-          to indie music while working to keep my head clear. Instead of just
-          chasing trends, I focus on building things that last. Apart from my
-          creative work, I spend most of my time coding and exploring my
-          obsession with space science. Whether it's debugging a complex script
-          or reading up on the latest NASA mission, I’m always looking for the
-          logic behind the chaos.
+          and I try to reflect that in my works as well. I often watch indie
+          films while working to keep my head clear. Instead of just chasing
+          trends, I focus on building things that last. Apart from my creative
+          work, I spend most of my time coding and exploring my obsession with
+          space science. Whether it's debugging a complex script or reading up
+          on the latest NASA mission, I’m always looking for the logic behind
+          the chaos..
         </p>
       </div>
 
